@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLogger", "ConsoleAppLogger\ConsoleAppLogger.csproj", "{A33396F1-B3B2-42D9-B0FA-4B2906AD59EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLogger", "ConsoleAppLogger\ConsoleAppLogger.csproj", "{A33396F1-B3B2-42D9-B0FA-4B2906AD59EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Framework", "Core.Framework\Core.Framework.csproj", "{8798FD78-48E9-4360-A116-D8C400AF721D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A33396F1-B3B2-42D9-B0FA-4B2906AD59EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A33396F1-B3B2-42D9-B0FA-4B2906AD59EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A33396F1-B3B2-42D9-B0FA-4B2906AD59EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8798FD78-48E9-4360-A116-D8C400AF721D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8798FD78-48E9-4360-A116-D8C400AF721D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8798FD78-48E9-4360-A116-D8C400AF721D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8798FD78-48E9-4360-A116-D8C400AF721D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
