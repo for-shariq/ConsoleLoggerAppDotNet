@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Core.Framework.Logging.PropertyLogger
 {
-    public class PropertyLogger: ApplicationLogger
+    public sealed class PropertyLogger: ApplicationLogger
     {
         private readonly ILogger _logger;
         private readonly IConstants _constants;
@@ -63,7 +63,7 @@ namespace Core.Framework.Logging.PropertyLogger
         public override void LogError<T1, T2, T3>(int eventId, Exception exception, string message, T1 methodName, T2 exceptionTypeName, T3 exceptionMessage)
         {
             message = _constants.GetErrorMessage(methodName, exceptionTypeName, exceptionMessage);
-            base.LogError(eventId, exception, message, methodName, exceptionTypeName, exceptionTypeName);
+            base.LogError(eventId, exception, message, methodName, exceptionTypeName, exceptionMessage);
         }
 
 

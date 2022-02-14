@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Core.Framework.Logging.PropertyLogger.PropertyLogger">
+    <Position X="311" Y="335.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logging\PropertyLogger\PropertyLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Framework.Logging.Base.ApplicationLogger">
+    <Position X="313.75" Y="332.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logging\Base\LoggerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Framework.Logging.LogEvents">
+    <Position X="323.25" Y="332" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIQABAAAAAAEAQAQAECAAAAAAAAiCAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\LogEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Framework.Logging.PropertyLogger.Constants">
+    <Position X="320" Y="333.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Logging\PropertyLogger\Constants.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Core.Framework.Logging.PropertyLogger.IConstants">
+    <Position X="320" Y="332" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Logging\PropertyLogger\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Core.Framework.Logging.Common.ExecutionStep">
+    <Position X="324" Y="335.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAACAMAAAAABAIAAAAAAAEAAAACAAAAAAA=</HashCode>
+      <FileName>Common\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
