@@ -7,11 +7,11 @@ using Microsoft.Extensions.Logging;
 
 namespace Core.Framework.Logging.Base
 {
-    public abstract class ApplicationLogger
+    public abstract class LoggerBase
     {
         private readonly ILogger _logger;
 
-        protected ApplicationLogger(ILogger logger)
+        protected LoggerBase(ILogger logger)
         {
             _logger = logger;
         }

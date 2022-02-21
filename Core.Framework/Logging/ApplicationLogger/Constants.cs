@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Framework.Logging.PropertyLogger
+namespace Core.Framework.Logging.ApplicationLogger
 {
     public interface IConstants
     {

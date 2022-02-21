@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 using Core.Framework.Logging.Base;
 using Microsoft.Extensions.Logging;
 
-namespace Core.Framework.Logging.PropertyLogger
+namespace Core.Framework.Logging.ApplicationLogger
 {
-    public sealed class PropertyLogger: ApplicationLogger
+    public sealed class ApplicationLogger : LoggerBase
     {
         private readonly ILogger _logger;
         private readonly IConstants _constants;
-        public PropertyLogger(ILogger logger, IConstants constants): base(logger)
+        public ApplicationLogger(ILogger logger, IConstants constants): base(logger)
         {
             _logger = logger;
             _constants = constants;
